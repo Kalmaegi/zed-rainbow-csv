@@ -8,20 +8,20 @@ repository = "https://github.com/weartist/zed-rainbow-csv"
 
 [grammars.csv]
 repository = "https://github.com/coroa/rainbow-csv-tree-sitter"
-commit = "0f95300cbb5c7280b15a364270ce6778a458c633"
+commit = "d82f436727f74298bd587ee696dca903efc42ce6"
 path = "csv"
 
 [grammars.ssv]
 repository = "https://github.com/coroa/rainbow-csv-tree-sitter"
-commit = "0f95300cbb5c7280b15a364270ce6778a458c633"
+commit = "d82f436727f74298bd587ee696dca903efc42ce6"
 path = "ssv"
 
 [grammars.tsv]
 repository = "https://github.com/coroa/rainbow-csv-tree-sitter"
-commit = "0f95300cbb5c7280b15a364270ce6778a458c633"
+commit = "d82f436727f74298bd587ee696dca903efc42ce6"
 path = "tsv"
 
 [grammars.psv]
 repository = "https://github.com/coroa/rainbow-csv-tree-sitter"
-commit = "0f95300cbb5c7280b15a364270ce6778a458c633"
+commit = "d82f436727f74298bd587ee696dca903efc42ce6"
 path = "psv"

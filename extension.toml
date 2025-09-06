@@ -1,15 +1,27 @@
 id = "rainbow-csv"
 name = "Rainbow CSV"
-version = "1.0.1"
+version = "1.1.0"
 schema_version = 1
 authors = ["Hans <weartistt@gmail.com>"]
 description = "Highlight CSV with different rainbow colors to make them more readable"
 repository = "https://github.com/weartist/zed-rainbow-csv"
 
 [grammars.csv]
-repository = "https://github.com/versecafe/rainbow-csv-tree-sitter"
-commit = "d3dbf916446131417e4c2ea9eb8591b23b466d27"
+repository = "https://github.com/coroa/rainbow-csv-tree-sitter"
+commit = "d82f436727f74298bd587ee696dca903efc42ce6"
+path = "csv"
+
+[grammars.ssv]
+repository = "https://github.com/coroa/rainbow-csv-tree-sitter"
+commit = "d82f436727f74298bd587ee696dca903efc42ce6"
+path = "ssv"
 
 [grammars.tsv]
-repository = "https://github.com/weartist/rainbow-tsv-tree-sitter"
-commit = "fdbd83fc30690777822b7ab183f57664c11310e9"
+repository = "https://github.com/coroa/rainbow-csv-tree-sitter"
+commit = "d82f436727f74298bd587ee696dca903efc42ce6"
+path = "tsv"
+
+[grammars.psv]
+repository = "https://github.com/coroa/rainbow-csv-tree-sitter"
+commit = "d82f436727f74298bd587ee696dca903efc42ce6"
+path = "psv"

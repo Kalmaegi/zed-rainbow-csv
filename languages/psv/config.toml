@@ -1,2 +1,3 @@
 name = "Rainbow CSV (|)"
 grammar = "psv"
+path_suffixes = ["psv"]
